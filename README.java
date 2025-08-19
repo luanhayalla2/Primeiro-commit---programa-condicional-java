@@ -1,9 +1,4 @@
-import java.io.FileWriter;
-import java.io.IOException;
 
-public class README {
-        public static void main(String[] args) {
-        String conteudo = """
         # ☕ Exemplos de Programas em Java
 
         Este repositório contém vários exemplos simples em **Java** para aprendizado de lógica de programação, variáveis, estruturas de decisão, laços de repetição e coleções.  
@@ -95,11 +90,4 @@ public class README {
         Esses códigos foram criados para **estudo de lógica de programação e fundamentos de Java**.  
         """;
 
-        try (FileWriter writer = new FileWriter("README.md")) {
-            writer.write(conteudo);
-            System.out.println("README.md criado com sucesso!");
-        } catch (IOException e) {
-            System.out.println("Erro ao criar README.md: " + e.getMessage());
-        }
-    }
-}
+
